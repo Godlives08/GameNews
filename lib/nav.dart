@@ -41,21 +41,22 @@ List<Widget> menuItems(BuildContext context) {
       decoration: BoxDecoration(
         image: DecorationImage(
           image: NetworkImage(
-              'https://pixabay.com/get/54e8d3424253a914f6d1867dda353678153dd6e45258744d_1920.jpg'),
+              'https://images.unsplash.com/photo-1538481199705-c710c4e965fc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1432&q=80'),
           fit: BoxFit.cover,
         ),
       ),
       child: Column(
         children: [
           CircleAvatar(
-            radius: 50.0,
-            backgroundColor: Colors.transparent,
+            radius: 40.0,
+            backgroundColor: Colors.white,
             backgroundImage: NetworkImage(
-                'https://cdn.pixabay.com/photo/2018/03/01/14/57/portrait-3190849_960_720.jpg'),
+                'https://www.clipartmax.com/png/middle/103-1038980_bankers-and-professionals-meeting-regularly-for-luncheon-user-flat-icon-png.png'),
+                
           ),
           Text(
-            'Flutter Dart Vader',
-            style: TextStyle(fontSize: 25.0, color: Colors.black54),
+            'Game News',
+            style: TextStyle(fontSize: 25.0, color: Colors.white),
           ),
         ],
       ),

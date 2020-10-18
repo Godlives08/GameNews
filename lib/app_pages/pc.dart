@@ -7,7 +7,7 @@ class PC extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Material App Bar'),
+        title: Text('Game News'),
       ),
       // drawer: _menuDrawer(context),
       drawer: Nav(),
